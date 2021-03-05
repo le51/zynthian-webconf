@@ -93,7 +93,7 @@ soundcard_presets = OrderedDict([
 	}],
 	['IQAudio DAC+', {
 		'SOUNDCARD_CONFIG': 'dtoverlay=iqaudio-dacplus',
-		'JACKD_OPTIONS': '-P 70 -t 2000 -s -d alsa -d hw:0 -r 44100 -p 256 -n 2 -X raw',
+		'JACKD_OPTIONS': '-P 70 -t 2000 -s -d alsa -d hw:IQaudIODAC -r 44100 -p 256 -n 2 -X raw',
 		'SOUNDCARD_MIXER': ''
 	}],
 	['IQAudio Digi', {
